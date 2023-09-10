@@ -1,0 +1,67 @@
+Git installation:
+# sudo apt update   - it update all packeges of ubantu machine
+# sudo apt install git
+# git --version
+
+Setup git:
+# git config --global user.name "Your Name"
+# git config --global user.email "youremail@domain.com"
+# git init
+
+
+1.To add file:
+# git add filename
+
+
+2.To check working tree status:
+# git status
+
+3.To commit staged files to local repository:
+# git commit -m "commit message"
+
+
+4. Staging and committing multiple files:
+# git commit  -a  -m "commit message"
+
+5.Git rm command deletes file from git repository as well as users system.
+# git rm <filename>
+
+6.Git remove file from git repository but not from system
+# git rm --cached <filename>
+
+7.To force remove a stage files
+# git rm -f <filename>
+
+
+8.Git commit log:
+# git log
+
+
+
+11.Working with remote repository:
+# Create new GIT HUB account.
+# Create new remote repository.
+
+
+12.Adding remote repository to local:
+# git clone <remote repo url> 
+
+13.Push changes to remote repo
+# git push origin master
+
+
+14.Remote repo list:
+# git remote -v
+
+15.Git fetch:
+# git fetch origin 
+
+16.Git pull
+# git pull origin
+
+17.Git Pull request
+# Create PR remotely
+
+https://github.com/spmaurya979/satya-10-07-23
+
+ra
